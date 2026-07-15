@@ -1,3 +1,14 @@
+---
+title: "第十四讲 基于 NoSQL 的空间数据库 —— 详细复习笔记"
+type: study
+created: 2026-07-09
+updated: 2026-07-09
+tags: ["study", "spatial-database"]
+sources: []
+confidence: medium
+status: active
+---
+
 # 第十四讲 基于 NoSQL 的空间数据库 —— 详细复习笔记
 
 > 课件来源：《空间数据库原理与应用》第十四讲，李晓明，深圳大学。全文 140 页，逐页覆盖（页码按渲染文件序号标注，与课件页脚有约 +2~3 偏移，各片段已注明）。

@@ -1,3 +1,14 @@
+---
+title: "摄影测量学考试重点整理"
+type: study
+created: 2026-07-05
+updated: 2026-07-05
+tags: ["study", "photogrammetry"]
+sources: []
+confidence: medium
+status: active
+---
+
 # 摄影测量学考试重点整理
 
 ## 题型

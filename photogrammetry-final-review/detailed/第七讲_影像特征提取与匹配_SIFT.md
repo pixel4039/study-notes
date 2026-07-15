@@ -1,3 +1,14 @@
+---
+title: "第七讲 影像特征提取与匹配（SIFT算子）"
+type: study
+created: 2026-07-05
+updated: 2026-07-05
+tags: ["study", "photogrammetry"]
+sources: []
+confidence: medium
+status: active
+---
+
 # 第七讲 影像特征提取与匹配（SIFT算子）
 
 > 本讲为"part2"，核心是 **SIFT 算子**（提取4步 + 匹配2步）及**影像匹配基础概念**。SIFT 的四大步骤、DoG、128维描述子、RANSAC 是**必考点**。（part1 的 Moravec/Harris/Förstner 兴趣算子未在本文件夹课件中，若考请另找 part1。）

@@ -1,3 +1,14 @@
+---
+title: "考官交接方案（给 Hermes / 任何接替的 AI）"
+type: study
+created: 2026-07-07
+updated: 2026-07-07
+tags: ["study", "spatial-statics"]
+sources: []
+confidence: medium
+status: active
+---
+
 # 考官交接方案（给 Hermes / 任何接替的 AI）
 
 > 使用方法：把本文件全文粘贴（或让她读取）给 Hermes，再附上她需要的材料文件。
