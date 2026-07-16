@@ -39,3 +39,7 @@
 ## [2026-07-16] governance | 迁移后活跃规则指针修正(Codex)
 - 经主人授权，将 `AGENTS.md` 中已退役的 `resources/study/`、旧 `hermes-vps-notes` 与 `resources/decisions/...` 指针更新为只读归档、当前 `/home/ubuntu/ops-notes` 真源和现行远端；同步修正 `SCHEMA.md` 的批准文书与 Scope Recall 合同路径。
 - 未改写 legacy 课程正文或历史记录；`python3 scripts/test_harvest.py` 复验 15/15 通过。
+
+## [2026-07-16] migrate | 摄影测量原始提取资料归位(Codex)
+- 按主人批准的 `HOME-EG-SR-GEMINI-20260716` 合同，将迁移前遗留在 ops-notes 忽略目录的 11 份摄影测量 `.txt` 路由到 `sources/course-materials/photogrammetry/raw-extracted/`。
+- 迁移前后 SHA-256 逐文件一致；study-notes 全树无同哈希副本，未覆盖或改造 `photogrammetry-final-review/` legacy bundle。新增局部 `_index.md` 与 `intake.md` 记录来源、唯一真源和回滚路径。

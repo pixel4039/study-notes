@@ -17,7 +17,7 @@
 ## 与其他系统的边界
 
 - Scope Recall 只保存指向本仓库的检索锚点(路径+block ID+origin_date+状态),不存第二份可编辑正文——合同见 `/home/ubuntu/ops-notes/decisions/2026-07-15__proposal__scope-recall-anchor-bridge-contract.md`。
-- 运维记录归 `/home/ubuntu/ops-notes`(远端 `pixel4039/ops-notes`),不进本仓库;通用资源目标归 `/home/ubuntu/resources`,但该目录尚未重新落地,不得擅自创建。
+- 运维记录归 `/home/ubuntu/ops-notes`（远端 `pixel4039/ops-notes`），不进本仓库；通用资源归 `/home/ubuntu/resources`（2026-07-16 已落地为本地 Git 仓库，当前无远端）。
 
 ## 规则入口
 
