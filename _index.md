@@ -10,7 +10,7 @@
 | 2026-07-16 | [阅读指南](阅读指南.md) | index | Obsidian 阅读通道 A 说明：vault 配置、reading CSS、PC/移动端安装步骤、留言写法（含随文留言与边读边问） | 阅读指南.md | 本地待验收 |
 | 2026-07-16 | [留言收割脚本](scripts/harvest_annotations.py) | script | 把连续阅读稿里的 `> [!留]` 随文留言确定性收割进 annotation 页（带原文引文/canonical 回链/递增块锚）；`批准蒸馏` 标记单独入 `wiki/_candidates/_distill-queue.md` 排队；纯 stdlib，测试见 `scripts/test_harvest.py` | scripts/harvest_annotations.py | 本地待验收（未装 cron） |
 | 2026-07-16 | [收割 cron 包装](scripts/harvest_cron.sh) | script | flock 防重入 + fetch/pull --ff-only + 跑收割脚本 + 单主题提交推回；本次只写好脚本，未安装 crontab | scripts/harvest_cron.sh | 本地待验收（未装 cron） |
-| 2026-07-16 | [摄影测量原始提取资料](sources/course-materials/photogrammetry/_index.md) | source | 从历史混合仓库迁入的 11 份独有课程原文；SHA-256 已登记，raw-extracted 保持不可变 | sources/course-materials/photogrammetry/ | 未同步 |
+| 2026-07-16 | [摄影测量原始提取资料](sources/course-materials/photogrammetry/_index.md) | source | 从历史混合仓库迁入的 11 份独有课程原文；SHA-256 已登记，raw-extracted 保持不可变 | sources/course-materials/photogrammetry/ | 已同步 |
 | (legacy) | photogrammetry-final-review/ | study | 摄影测量期末复习包(legacy bundle,待迁移合并) | photogrammetry-final-review/ | 落后于 resources/study 07-14 版 |
 | (legacy) | spatial_database/ | study | 空间数据库课程包含 15 讲 PDF+复习笔记(legacy bundle;PDF 以本仓库为保管方) | spatial_database/ | 笔记落后于 resources/study 07-14 版 |
 | (legacy) | spatial_statics/ | study | 空间统计课程包(legacy bundle,待迁移合并) | spatial_statics/ | 待对账 |
