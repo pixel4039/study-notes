@@ -1,0 +1,70 @@
+/*
+ * study-notes 阅读通道 A — 长文阅读优化 snippet
+ * 只作用于 Obsidian 渲染层,不改写仓库 Markdown 正文。
+ * 颜色全部用 Obsidian 内置 CSS 变量(--text-normal/--background-secondary/
+ * --background-modifier-border/--text-accent 等),随亮/暗主题自动切换,
+ * 不出现硬编码色值。参考 resources/inbox/2026-07-16 架构文档附录 B 的排版参数
+ * (行距/段距/引用块/表格),未引入其配套插件体系。可调参数见行尾注释。
+ */
+
+/* 正文行距:长文建议 1.9–2.2,默认 2(可调) */
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-contentContainer {
+  line-height: 2; /* 可调:1.9–2.2 */
+}
+
+/* 段落间距:中文长文段间留白,避免整段贴在一起(可调) */
+.markdown-preview-view p,
+.markdown-source-view.mod-cm6 .cm-line {
+  margin-top: 0;
+  margin-bottom: 1em; /* 可调:0.8em–1.2em */
+}
+
+/* 标题层级留白:级别越高顶部留白越大,和上文分段更清楚 */
+.markdown-preview-view h1 { margin-top: 1.6em; margin-bottom: 0.6em; }
+.markdown-preview-view h2 { margin-top: 1.4em; margin-bottom: 0.5em; }
+.markdown-preview-view h3 { margin-top: 1.2em; margin-bottom: 0.4em; }
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 { margin-top: 1em; margin-bottom: 0.3em; }
+
+/* 引用块美化:边框/背景/文字色均取自主题变量,亮暗自适应 */
+.markdown-preview-view blockquote {
+  border-left: 3px solid var(--text-accent);
+  background-color: var(--background-secondary);
+  color: var(--text-muted);
+  padding: 0.6em 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+/* 表格美化:边框、表头底色、内边距,取自主题变量 */
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+.markdown-preview-view th,
+.markdown-preview-view td {
+  border: 1px solid var(--background-modifier-border);
+  padding: 0.4em 0.8em; /* 可调 */
+}
+.markdown-preview-view th {
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+  font-weight: 600;
+}
+
+/* 列表行距与正文保持一致,避免列表比正文更挤(可调) */
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  line-height: 2;
+}
+.markdown-preview-view li {
+  margin-bottom: 0.3em; /* 可调 */
+}
+
+/* 可选:中文段落首行缩进(附录 B 建议之一),默认关闭——Obsidian 笔记常混排
+   代码块/列表,全局首行缩进易错位。个别笔记如需开启:frontmatter 加
+   `cssclasses: indent-paragraph`,再取消下一行注释。 */
+/* .indent-paragraph .markdown-preview-view p { text-indent: 2em; } */

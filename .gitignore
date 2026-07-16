@@ -1,0 +1,4 @@
+# Obsidian 本地易变状态(阅读通道 A):随机器/会话变化,不需要跨机同步
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
