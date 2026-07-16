@@ -25,3 +25,13 @@
 - 按 Claude 拟定的阅读通道 A 合同,建立 `.obsidian/`(app.json、appearance.json、snippets/reading.css)最小 vault 配置、`.gitignore` 追加 Obsidian 本地易变项、根目录 `阅读指南.md`。
 - reading.css 约 70 行:行距/段距/标题留白/引用块/表格样式全部使用 Obsidian 主题变量,不硬编码颜色,亮暗两态均适配;未安装或配置任何社区插件。
 - 本次提交未 push;工作树中 P01 摄入相关的既有未提交改动(`sources/bilibili/**`、`annotations/**`、`_index.md`、`log.md` 的既有修改)使用隔离提交手法保持原样,未被本次提交吸收。
+
+## [2026-07-16] feat | 留言收割流水线落地(Sonnet 执行 / Claude 合同,Sol 验收)
+- 依据合同 `.claude/jobs/fc51b3d3/tmp/CONTRACT-harvest.md` 与已批方案 `.claude/plans/effervescent-wiggling-hopcroft.md`,新增 `scripts/harvest_annotations.py`(纯 stdlib、零依赖):扫描 `sources/bilibili/*/transcripts/**/*连续阅读.md` 里未收割的 `> [!留]` callout,取上方最近段落前 60 字作引文,用段首 ~15 字(标点无关)在同目录 canonical 转写稿里做前缀匹配定位块锚与 mm:ss 时间戳(未命中则降级为仅存引文,不失败);收割进对应 `annotations/bilibili/<MID>/<BVID>.md` 的「留言栏(用户原话)」,追加日期小节 + 引文/回链 + 留言正文 + 递增块锚 `^an-<bvid>-pNN-NNN`(延续既有页面里的最大序号,不冲突);annotation 页缺失时按 `BV1syNg6DEFi.md` 既有结构建页;原位置替换为收录指针 `> [!留] ✓ 已收录 → [[annotation页#^锚]]`。
+- 专用标记 `> [!留] 批准蒸馏 备注` 改为路由进 `wiki/_candidates/_distill-queue.md` 排队(不入留言栏),原位置替换为 `✓ 已入蒸馏队列`;队列消费仍走 D0–D5 审批,不因收割自动触发,不消耗 LLM token。
+- 幂等设计:已收割/已入队的 callout 会被识别为"已处理"(标题以 ✓ 开头),重跑零变化;除目标 callout 行外,连续阅读稿其余字节零改动(已用切片哈希断言验证)。
+- 新增 `scripts/harvest_cron.sh`:flock 防重入 → 无新提交且无待收割留言则退出 → `git pull --ff-only`(失败退出待下轮,不 rebase 不强推)→ 跑收割脚本 → 有变化则单主题提交 `harvest: annotations from reading comments` 并 push(被拒则留待下轮)→ 日志写 `.harvest.log`。**本次只写好脚本,未安装 crontab**,是否/何时接入由主人在 Sol 验收通过后另行决定。
+- 新增 `scripts/test_harvest.py`(stdlib unittest,10 个测试类/方法,全部在系统 `/tmp` 临时目录构造沙箱跑,未触碰仓库真文件):空转、canonical 匹配命中/未命中降级、多留言锚号递增不冲突、非目标字节零改动(切片哈希断言)、指针替换正确、幂等重跑、dry-run 不写文件、annotation 缺失建页、蒸馏标记识别路由/重复幂等/队列格式。
+- 配套文档:`阅读指南.md` 补「随文留言写法」(callout 语法、收割节奏、批准蒸馏标记)与「边读边问怎么问」(QQ/微信找 Sol,带 BVID + 原文引文,沿用现有 Scope Recall 通道,不新建聊天入口)两节;`SCHEMA.md` annotations 小节补收割约定一句;`.gitignore` 追加 `.harvest.log`、`.harvest.lock`;`_index.md` 登记两个新脚本。
+- 本次提交只写 `study-notes/` 与 `/tmp/harvest-build-20260716/`,未 push、未装 crontab,遵守合同硬边界。
+- Claude 验收(2026-07-16 晚):首轮取证抓出相邻 `[!留]` 合并且标记泄漏正文的 bug(续行循环未在新 callout 起始停止),修复轮补:相邻留言各自独立成条、`.gitignore` 补 `__pycache__/`、写入改同目录 tempfile+os.replace 原子替换(含故障注入测试);测试 12→15 个全绿,Haiku 独立沙箱复验通过后终审放行。crontab 仍未安装,待主人另批。

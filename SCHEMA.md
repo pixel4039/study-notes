@@ -51,6 +51,7 @@ author: hermes | claude | codex | user        # created >= 2026-07-15 必填
 - thinking 页:一主题一页,条目带日期、状态 `current|revised|superseded|retracted`、block ID `^tk-<slug>-NNN`、来源回链;旧观点改状态不删正文。
 - 转写条目用户确认前标 `tentative: true`,tentative 永不静默使用。
 - 本层是用户声音:AI 只能转写与追加。
+- 收割约定:主人可在连续阅读稿(`*连续阅读.md`)对应段落下方直接写 `> [!留] 想法` 随文留言;确定性脚本 `scripts/harvest_annotations.py`(纯 stdlib、零 LLM token)把它收割进对应 `annotations/bilibili/<MID>/<BVID>.md` 的「留言栏(用户原话)」,带日期小节、原文引文与 canonical 锚点回链 `[[...#^锚|mm:ss]]`、递增块锚 `^an-<bvid>-pNN-NNN`;原位置替换为收录指针 `> [!留] ✓ 已收录 → [[annotation页#^锚]]`。留言里写 `> [!留] 批准蒸馏 备注` 则改为进入 `wiki/_candidates/_distill-queue.md` 排队,原位置变 `✓ 已入蒸馏队列`;队列消费(生成正式 candidate)仍走 D0–D5 审批,不因收割自动触发。详见 `阅读指南.md`「随文留言写法」。
 
 ## wiki 与 D0–D5
 
