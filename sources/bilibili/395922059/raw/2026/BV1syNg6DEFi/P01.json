@@ -1,0 +1,1548 @@
+{
+  "font_size": 0.4,
+  "font_color": "#FFFFFF",
+  "background_alpha": 0.5,
+  "background_color": "#9C27B0",
+  "Stroke": "none",
+  "type": "AIsubtitle",
+  "lang": "zh",
+  "version": "v1.7.0.4",
+  "body": [
+    {
+      "from": 0.34,
+      "to": 2.22,
+      "sid": 1,
+      "location": 2,
+      "content": "我在一个10万行代码的项目里",
+      "music": 0.0
+    },
+    {
+      "from": 2.22,
+      "to": 4.18,
+      "sid": 2,
+      "location": 2,
+      "content": "只让AI替换一个侧边栏图标",
+      "music": 0.0
+    },
+    {
+      "from": 4.18,
+      "to": 6.36,
+      "sid": 3,
+      "location": 2,
+      "content": "第一轮我只告诉他我最终的需求",
+      "music": 0.0
+    },
+    {
+      "from": 6.36,
+      "to": 8.22,
+      "sid": 4,
+      "location": 2,
+      "content": "但他自己从整个项目里面找",
+      "music": 0.0
+    },
+    {
+      "from": 8.22,
+      "to": 10.05,
+      "sid": 5,
+      "location": 2,
+      "content": "前后花了大约30分钟",
+      "music": 0.0
+    },
+    {
+      "from": 10.05,
+      "to": 12.55,
+      "sid": 6,
+      "location": 2,
+      "content": "第二轮我直接给出相关文件的入口",
+      "music": 0.0
+    },
+    {
+      "from": 12.55,
+      "to": 14.2,
+      "sid": 7,
+      "location": 2,
+      "content": "时间降到了14分钟",
+      "music": 0.0
+    },
+    {
+      "from": 14.2,
+      "to": 16.46,
+      "sid": 8,
+      "location": 2,
+      "content": "第三轮我保留同样的文件入口",
+      "music": 0.0
+    },
+    {
+      "from": 16.46,
+      "to": 17.36,
+      "sid": 9,
+      "location": 2,
+      "content": "再把图片处理",
+      "music": 0.0
+    },
+    {
+      "from": 17.36,
+      "to": 19.84,
+      "sid": 10,
+      "location": 2,
+      "content": "这套重复流程固化成项目级的skill",
+      "music": 0.0
+    },
+    {
+      "from": 19.84,
+      "to": 21.95,
+      "sid": 11,
+      "location": 2,
+      "content": "默认速度下大约10分钟",
+      "music": 0.0
+    },
+    {
+      "from": 21.95,
+      "to": 22.95,
+      "sid": 12,
+      "location": 2,
+      "content": "模型没有换",
+      "music": 0.0
+    },
+    {
+      "from": 22.95,
+      "to": 24.41,
+      "sid": 13,
+      "location": 2,
+      "content": "任务类型也没有换",
+      "music": 0.0
+    },
+    {
+      "from": 24.41,
+      "to": 27.67,
+      "sid": 14,
+      "location": 2,
+      "content": "真正改变的是我减少了AI的两种不确定性",
+      "music": 0.0
+    },
+    {
+      "from": 27.67,
+      "to": 28.85,
+      "sid": 15,
+      "location": 2,
+      "content": "他要去哪里找",
+      "music": 0.0
+    },
+    {
+      "from": 28.85,
+      "to": 30.6,
+      "sid": 16,
+      "location": 2,
+      "content": "以及找到以后应该怎么做",
+      "music": 0.0
+    },
+    {
+      "from": 30.6,
+      "to": 32.74,
+      "sid": 17,
+      "location": 2,
+      "content": "这期我就用这三轮真实的记录",
+      "music": 0.0
+    },
+    {
+      "from": 32.74,
+      "to": 35.88,
+      "sid": 18,
+      "location": 2,
+      "content": "讲清楚单项目里怎样让AI修改简单需求时",
+      "music": 0.0
+    },
+    {
+      "from": 35.88,
+      "to": 36.92,
+      "sid": 19,
+      "location": 2,
+      "content": "少做点探索",
+      "music": 0.0
+    },
+    {
+      "from": 36.92,
+      "to": 38.17,
+      "sid": 20,
+      "location": 2,
+      "content": "多做执行",
+      "music": 0.0
+    },
+    {
+      "from": 38.17,
+      "to": 40.67,
+      "sid": 21,
+      "location": 2,
+      "content": "对症下药的前提是弄清楚根本原因",
+      "music": 0.0
+    },
+    {
+      "from": 40.67,
+      "to": 41.95,
+      "sid": 22,
+      "location": 2,
+      "content": "为什么小项目快",
+      "music": 0.0
+    },
+    {
+      "from": 41.95,
+      "to": 43.44,
+      "sid": 23,
+      "location": 2,
+      "content": "大项目却越来越慢",
+      "music": 0.0
+    },
+    {
+      "from": 43.44,
+      "to": 45.44,
+      "sid": 24,
+      "location": 2,
+      "content": "项目刚开始的时候代码量小",
+      "music": 0.0
+    },
+    {
+      "from": 45.44,
+      "to": 46.46,
+      "sid": 25,
+      "location": 2,
+      "content": "目录也简单",
+      "music": 0.0
+    },
+    {
+      "from": 46.46,
+      "to": 48.6,
+      "sid": 26,
+      "location": 2,
+      "content": "你告诉AI把这个图标换掉",
+      "music": 0.0
+    },
+    {
+      "from": 48.6,
+      "to": 50.35,
+      "sid": 27,
+      "location": 2,
+      "content": "它可能23分钟就做完了",
+      "music": 0.0
+    },
+    {
+      "from": 50.35,
+      "to": 52.81,
+      "sid": 28,
+      "location": 2,
+      "content": "但项目增长到接近10万行代码以后",
+      "music": 0.0
+    },
+    {
+      "from": 52.81,
+      "to": 55.78,
+      "sid": 29,
+      "location": 2,
+      "content": "同样一句话背后的搜索空间已经完全不同",
+      "music": 0.0
+    },
+    {
+      "from": 55.78,
+      "to": 57.36,
+      "sid": 30,
+      "location": 2,
+      "content": "你眼里只是一张图片",
+      "music": 0.0
+    },
+    {
+      "from": 57.36,
+      "to": 60.2,
+      "sid": 31,
+      "location": 2,
+      "content": "当AI并不知道这个图标有没有主题切换",
+      "music": 0.0
+    },
+    {
+      "from": 60.2,
+      "to": 61.62,
+      "sid": 32,
+      "location": 2,
+      "content": "有没有什么共享的样式",
+      "music": 0.0
+    },
+    {
+      "from": 61.62,
+      "to": 63.09,
+      "sid": 33,
+      "location": 2,
+      "content": "或是直接引用的资源",
+      "music": 0.0
+    },
+    {
+      "from": 63.09,
+      "to": 65.17,
+      "sid": 34,
+      "location": 2,
+      "content": "还是由组件动态渲染",
+      "music": 0.0
+    },
+    {
+      "from": 65.17,
+      "to": 66.75,
+      "sid": 35,
+      "location": 2,
+      "content": "为了确认影响范围",
+      "music": 0.0
+    },
+    {
+      "from": 66.75,
+      "to": 69.03,
+      "sid": 36,
+      "location": 2,
+      "content": "他可能会继续查找资源的定义",
+      "music": 0.0
+    },
+    {
+      "from": 69.03,
+      "to": 70.27,
+      "sid": 37,
+      "location": 2,
+      "content": "组建入口样式",
+      "music": 0.0
+    },
+    {
+      "from": 70.27,
+      "to": 71.05,
+      "sid": 38,
+      "location": 2,
+      "content": "主题逻辑",
+      "music": 0.0
+    },
+    {
+      "from": 71.05,
+      "to": 74.21,
+      "sid": 39,
+      "location": 2,
+      "content": "甚至读到一些与这次改动关系不大的文档",
+      "music": 0.0
+    },
+    {
+      "from": 74.21,
+      "to": 76.07,
+      "sid": 40,
+      "location": 2,
+      "content": "这些检查不一定是错的",
+      "music": 0.0
+    },
+    {
+      "from": 76.07,
+      "to": 78.69,
+      "sid": 41,
+      "location": 2,
+      "content": "问题在于对于一个很局部的图标替换",
+      "music": 0.0
+    },
+    {
+      "from": 78.69,
+      "to": 80.68,
+      "sid": 42,
+      "location": 2,
+      "content": "它的大量时间并没有花在改",
+      "music": 0.0
+    },
+    {
+      "from": 80.68,
+      "to": 82.1,
+      "sid": 43,
+      "location": 2,
+      "content": "而是无法在寻找链路",
+      "music": 0.0
+    },
+    {
+      "from": 82.1,
+      "to": 83.68,
+      "sid": 44,
+      "location": 2,
+      "content": "探索代码和不断的推理",
+      "music": 0.0
+    },
+    {
+      "from": 83.68,
+      "to": 85.49,
+      "sid": 45,
+      "location": 2,
+      "content": "直到确认链路走通",
+      "music": 0.0
+    },
+    {
+      "from": 85.49,
+      "to": 87.61,
+      "sid": 46,
+      "location": 2,
+      "content": "第一轮实测只描述结果",
+      "music": 0.0
+    },
+    {
+      "from": 87.61,
+      "to": 88.45,
+      "sid": 47,
+      "location": 2,
+      "content": "让AI自己找",
+      "music": 0.0
+    },
+    {
+      "from": 88.45,
+      "to": 90.24,
+      "sid": 48,
+      "location": 2,
+      "content": "总共耗时30分钟",
+      "music": 0.0
+    },
+    {
+      "from": 90.24,
+      "to": 93.02,
+      "sid": 49,
+      "location": 2,
+      "content": "我只给了项目根目录需要替换的图片",
+      "music": 0.0
+    },
+    {
+      "from": 93.02,
+      "to": 94.92,
+      "sid": 50,
+      "location": 2,
+      "content": "以及它在UI上的大概的位置",
+      "music": 0.0
+    },
+    {
+      "from": 94.92,
+      "to": 96.699,
+      "sid": 51,
+      "location": 2,
+      "content": "这是我的提示词",
+      "music": 0.0
+    },
+    {
+      "from": 96.699,
+      "to": 98.639,
+      "sid": 52,
+      "location": 2,
+      "content": "这是一种很自然的使用方式",
+      "music": 0.0
+    },
+    {
+      "from": 98.639,
+      "to": 102.1,
+      "sid": 53,
+      "location": 2,
+      "content": "也是很多人刚开始用AI编程最常用的方式",
+      "music": 0.0
+    },
+    {
+      "from": 102.1,
+      "to": 103.46,
+      "sid": 54,
+      "location": 2,
+      "content": "但在大项目里",
+      "music": 0.0
+    },
+    {
+      "from": 103.46,
+      "to": 105.02,
+      "sid": 55,
+      "location": 2,
+      "content": "他等于把定位代码完成",
+      "music": 0.0
+    },
+    {
+      "from": 105.02,
+      "to": 106.27,
+      "sid": 56,
+      "location": 2,
+      "content": "修改两个任务",
+      "music": 0.0
+    },
+    {
+      "from": 106.27,
+      "to": 107.29,
+      "sid": 57,
+      "location": 2,
+      "content": "同时就为了AI",
+      "music": 0.0
+    },
+    {
+      "from": 107.29,
+      "to": 110.15,
+      "sid": 58,
+      "location": 2,
+      "content": "这一轮他先花了大约11分钟分析和定位",
+      "music": 0.0
+    },
+    {
+      "from": 110.15,
+      "to": 111.87,
+      "sid": 59,
+      "location": 2,
+      "content": "随后用了十几分钟处理资源",
+      "music": 0.0
+    },
+    {
+      "from": 111.87,
+      "to": 114.509,
+      "sid": 60,
+      "location": 2,
+      "content": "修改代码验证这个过程将近30分钟",
+      "music": 0.0
+    },
+    {
+      "from": 114.509,
+      "to": 116.949,
+      "sid": 61,
+      "location": 2,
+      "content": "所以第一轮实测真是暴露的问题",
+      "music": 0.0
+    },
+    {
+      "from": 116.949,
+      "to": 119.129,
+      "sid": 62,
+      "location": 2,
+      "content": "是给AI的任务边界太开放",
+      "music": 0.0
+    },
+    {
+      "from": 119.129,
+      "to": 122.74,
+      "sid": 63,
+      "location": 2,
+      "content": "它必须先重新认识与这个图标有关的局部系统",
+      "music": 0.0
+    },
+    {
+      "from": 122.74,
+      "to": 123.98,
+      "sid": 64,
+      "location": 2,
+      "content": "才敢开始修改",
+      "music": 0.0
+    },
+    {
+      "from": 125.1,
+      "to": 126.96,
+      "sid": 65,
+      "location": 2,
+      "content": "第二轮实测是给他项目地图",
+      "music": 0.0
+    },
+    {
+      "from": 126.96,
+      "to": 128.48,
+      "sid": 66,
+      "location": 2,
+      "content": "不是把它锁死嗯",
+      "music": 0.0
+    },
+    {
+      "from": 128.48,
+      "to": 129.76,
+      "sid": 67,
+      "location": 2,
+      "content": "总耗时14分钟",
+      "music": 0.0
+    },
+    {
+      "from": 129.76,
+      "to": 131.32,
+      "sid": 68,
+      "location": 2,
+      "content": "第二轮主要改变一件事",
+      "music": 0.0
+    },
+    {
+      "from": 131.32,
+      "to": 133.16,
+      "sid": 69,
+      "location": 2,
+      "content": "就是在描述需求的同时",
+      "music": 0.0
+    },
+    {
+      "from": 133.16,
+      "to": 136.04,
+      "sid": 70,
+      "location": 2,
+      "content": "把高概率相关的文件和目录直接告诉他",
+      "music": 0.0
+    },
+    {
+      "from": 136.04,
+      "to": 137.94,
+      "sid": 71,
+      "location": 2,
+      "content": "这里要特别区分两个概念",
+      "music": 0.0
+    },
+    {
+      "from": 137.94,
+      "to": 142.02,
+      "sid": 72,
+      "location": 2,
+      "content": "不是强行规定AI只能读取或修改三个文件范围",
+      "music": 0.0
+    },
+    {
+      "from": 142.02,
+      "to": 142.74,
+      "sid": 73,
+      "location": 2,
+      "content": "卡的太死",
+      "music": 0.0
+    },
+    {
+      "from": 142.74,
+      "to": 145.38,
+      "sid": 74,
+      "location": 2,
+      "content": "如果真实依赖恰好在第四个文件",
+      "music": 0.0
+    },
+    {
+      "from": 145.38,
+      "to": 147.48,
+      "sid": 75,
+      "location": 2,
+      "content": "就有可能过快却改错了文件",
+      "music": 0.0
+    },
+    {
+      "from": 147.48,
+      "to": 149.82,
+      "sid": 76,
+      "location": 2,
+      "content": "我做的是给他几个明确入口",
+      "music": 0.0
+    },
+    {
+      "from": 149.82,
+      "to": 153.63,
+      "sid": 77,
+      "location": 2,
+      "content": "先检查哪个组件资源通常放在哪个目录样",
+      "music": 0.0
+    },
+    {
+      "from": 153.63,
+      "to": 155.68,
+      "sid": 78,
+      "location": 2,
+      "content": "相关的样式大概率在哪个文件",
+      "music": 0.0
+    },
+    {
+      "from": 155.68,
+      "to": 157.76,
+      "sid": 79,
+      "location": 2,
+      "content": "如果确实发现了其他直接依赖",
+      "music": 0.0
+    },
+    {
+      "from": 157.76,
+      "to": 159.58,
+      "sid": 80,
+      "location": 2,
+      "content": "再根据证据扩展范围",
+      "music": 0.0
+    },
+    {
+      "from": 159.58,
+      "to": 160.2,
+      "sid": 81,
+      "location": 2,
+      "content": "这样一来",
+      "music": 0.0
+    },
+    {
+      "from": 160.2,
+      "to": 162.84,
+      "sid": 82,
+      "location": 2,
+      "content": "原本的大范围搜索就变成了局部确认",
+      "music": 0.0
+    },
+    {
+      "from": 162.84,
+      "to": 165.36,
+      "sid": 83,
+      "location": 2,
+      "content": "这一轮AI的文件读取分析和修改",
+      "music": 0.0
+    },
+    {
+      "from": 165.36,
+      "to": 167.38,
+      "sid": 84,
+      "location": 2,
+      "content": "基本都围绕我给的入口展开",
+      "music": 0.0
+    },
+    {
+      "from": 167.38,
+      "to": 170.76,
+      "sid": 85,
+      "location": 2,
+      "content": "总耗时从接近30分钟降到了大约14分钟",
+      "music": 0.0
+    },
+    {
+      "from": 170.76,
+      "to": 172.08,
+      "sid": 86,
+      "location": 2,
+      "content": "所以你即使不懂一行",
+      "music": 0.0
+    },
+    {
+      "from": 172.08,
+      "to": 172.86,
+      "sid": 87,
+      "location": 2,
+      "content": "每一行代码",
+      "music": 0.0
+    },
+    {
+      "from": 172.86,
+      "to": 175.48,
+      "sid": 88,
+      "location": 2,
+      "content": "也最好对项目目录和主要文件的脉络",
+      "music": 0.0
+    },
+    {
+      "from": 175.48,
+      "to": 176.66,
+      "sid": 89,
+      "location": 2,
+      "content": "有一个基本的印象",
+      "music": 0.0
+    },
+    {
+      "from": 176.66,
+      "to": 178.46,
+      "sid": 90,
+      "location": 2,
+      "content": "你不需要替AI写代码",
+      "music": 0.0
+    },
+    {
+      "from": 178.46,
+      "to": 180.34,
+      "sid": 91,
+      "location": 2,
+      "content": "但可以把自己已经知道的",
+      "music": 0.0
+    },
+    {
+      "from": 180.34,
+      "to": 183.46,
+      "sid": 92,
+      "location": 2,
+      "content": "项目的主要脉络和背景交给他",
+      "music": 0.0
+    },
+    {
+      "from": 183.46,
+      "to": 186.149,
+      "sid": 93,
+      "location": 2,
+      "content": "不要让他每次都从零开始去猜",
+      "music": 0.0
+    },
+    {
+      "from": 186.149,
+      "to": 188.109,
+      "sid": 94,
+      "location": 2,
+      "content": "以后做这类局部任务",
+      "music": 0.0
+    },
+    {
+      "from": 188.109,
+      "to": 190.56,
+      "sid": 95,
+      "location": 2,
+      "content": "可以大概分为四个部分",
+      "music": 0.0
+    },
+    {
+      "from": 190.56,
+      "to": 193.26,
+      "sid": 96,
+      "location": 2,
+      "content": "第一就是你的目标是什么",
+      "music": 0.0
+    },
+    {
+      "from": 193.26,
+      "to": 194.82,
+      "sid": 97,
+      "location": 2,
+      "content": "第二就是从哪里开始找",
+      "music": 0.0
+    },
+    {
+      "from": 194.82,
+      "to": 197.3,
+      "sid": 98,
+      "location": 2,
+      "content": "给出高概率相关的组件样式",
+      "music": 0.0
+    },
+    {
+      "from": 197.3,
+      "to": 198.84,
+      "sid": 99,
+      "location": 2,
+      "content": "文件和资源目录",
+      "music": 0.0
+    },
+    {
+      "from": 198.84,
+      "to": 201.5,
+      "sid": 100,
+      "location": 2,
+      "content": "第三是执行时遵守什么规范",
+      "music": 0.0
+    },
+    {
+      "from": 201.5,
+      "to": 204.269,
+      "sid": 101,
+      "location": 2,
+      "content": "比如用什么什么样的图标尺寸",
+      "music": 0.0
+    },
+    {
+      "from": 204.269,
+      "to": 205.969,
+      "sid": 102,
+      "location": 2,
+      "content": "命名和引用方式等",
+      "music": 0.0
+    },
+    {
+      "from": 205.969,
+      "to": 207.389,
+      "sid": 103,
+      "location": 2,
+      "content": "第四怎样才算完成",
+      "music": 0.0
+    },
+    {
+      "from": 207.389,
+      "to": 209.229,
+      "sid": 104,
+      "location": 2,
+      "content": "比如说透明背景正确",
+      "music": 0.0
+    },
+    {
+      "from": 209.229,
+      "to": 210.64,
+      "sid": 105,
+      "location": 2,
+      "content": "或者说界面显示一致",
+      "music": 0.0
+    },
+    {
+      "from": 210.64,
+      "to": 211.92,
+      "sid": 106,
+      "location": 2,
+      "content": "构建验证",
+      "music": 0.0
+    },
+    {
+      "from": 211.92,
+      "to": 213.5,
+      "sid": 107,
+      "location": 2,
+      "content": "等你实测等等",
+      "music": 0.0
+    },
+    {
+      "from": 213.5,
+      "to": 216.26,
+      "sid": 108,
+      "location": 2,
+      "content": "这比单纯把提示词写得更长更重要",
+      "music": 0.0
+    },
+    {
+      "from": 216.26,
+      "to": 218.78,
+      "sid": 109,
+      "location": 2,
+      "content": "它是在减少任务的不确定性",
+      "music": 0.0
+    },
+    {
+      "from": 218.78,
+      "to": 222.12,
+      "sid": 110,
+      "location": 2,
+      "content": "第三轮实测是把重复执行固化成skill",
+      "music": 0.0
+    },
+    {
+      "from": 222.12,
+      "to": 223.85,
+      "sid": 111,
+      "location": 2,
+      "content": "总耗时降到10分钟",
+      "music": 0.0
+    },
+    {
+      "from": 223.85,
+      "to": 225.73,
+      "sid": 112,
+      "location": 2,
+      "content": "第二轮主要解决了去哪里找",
+      "music": 0.0
+    },
+    {
+      "from": 225.73,
+      "to": 227.31,
+      "sid": 113,
+      "location": 2,
+      "content": "但还有一部分没有被消除",
+      "music": 0.0
+    },
+    {
+      "from": 227.31,
+      "to": 229.35,
+      "sid": 114,
+      "location": 2,
+      "content": "那就是图片处理本身",
+      "music": 0.0
+    },
+    {
+      "from": 229.35,
+      "to": 232.49,
+      "sid": 115,
+      "location": 2,
+      "content": "我的图标资源并不是下载就能直接放进项目",
+      "music": 0.0
+    },
+    {
+      "from": 232.49,
+      "to": 234.25,
+      "sid": 116,
+      "location": 2,
+      "content": "它还要处理透明背景尺寸",
+      "music": 0.0
+    },
+    {
+      "from": 234.25,
+      "to": 235.75,
+      "sid": 117,
+      "location": 2,
+      "content": "还有留白命名存放路径",
+      "music": 0.0
+    },
+    {
+      "from": 235.75,
+      "to": 238.17,
+      "sid": 118,
+      "location": 2,
+      "content": "最后再接入UI做视觉验证",
+      "music": 0.0
+    },
+    {
+      "from": 238.17,
+      "to": 239.71,
+      "sid": 119,
+      "location": 2,
+      "content": "AI在处理图片的时候",
+      "music": 0.0
+    },
+    {
+      "from": 239.71,
+      "to": 241.64,
+      "sid": 120,
+      "location": 2,
+      "content": "如果涉及需要详细处理",
+      "music": 0.0
+    },
+    {
+      "from": 241.64,
+      "to": 244.78,
+      "sid": 121,
+      "location": 2,
+      "content": "那么就需要依赖额外的脚本来完成",
+      "music": 0.0
+    },
+    {
+      "from": 244.78,
+      "to": 246.94,
+      "sid": 122,
+      "location": 2,
+      "content": "如果每次都让AI临时写一个脚本",
+      "music": 0.0
+    },
+    {
+      "from": 246.94,
+      "to": 248.36,
+      "sid": 123,
+      "location": 2,
+      "content": "它就会重新生成测试",
+      "music": 0.0
+    },
+    {
+      "from": 248.36,
+      "to": 250.889,
+      "sid": 124,
+      "location": 2,
+      "content": "发现问题修改再重新执行脚本",
+      "music": 0.0
+    },
+    {
+      "from": 250.889,
+      "to": 251.969,
+      "sid": 125,
+      "location": 2,
+      "content": "你也没办法保证",
+      "music": 0.0
+    },
+    {
+      "from": 251.969,
+      "to": 254.62,
+      "sid": 126,
+      "location": 2,
+      "content": "这一次生成的脚本和上一次是完全一致的",
+      "music": 0.0
+    },
+    {
+      "from": 254.62,
+      "to": 256.34,
+      "sid": 127,
+      "location": 2,
+      "content": "所以第三轮我在保轮",
+      "music": 0.0
+    },
+    {
+      "from": 256.34,
+      "to": 258.34,
+      "sid": 128,
+      "location": 2,
+      "content": "第二轮文件入口信息的基础上",
+      "music": 0.0
+    },
+    {
+      "from": 258.34,
+      "to": 260.62,
+      "sid": 129,
+      "location": 2,
+      "content": "把这套重复出现的处理过程",
+      "music": 0.0
+    },
+    {
+      "from": 260.62,
+      "to": 262.14,
+      "sid": 130,
+      "location": 2,
+      "content": "沉淀成了项目级的skill",
+      "music": 0.0
+    },
+    {
+      "from": 262.14,
+      "to": 262.86,
+      "sid": 131,
+      "location": 2,
+      "content": "这样做以后",
+      "music": 0.0
+    },
+    {
+      "from": 262.86,
+      "to": 264.62,
+      "sid": 132,
+      "location": 2,
+      "content": "AI对具体图片的处理值",
+      "music": 0.0
+    },
+    {
+      "from": 264.62,
+      "to": 267.07,
+      "sid": 133,
+      "location": 2,
+      "content": "直接交给已经验证过的脚本执行",
+      "music": 0.0
+    },
+    {
+      "from": 267.07,
+      "to": 269.69,
+      "sid": 134,
+      "location": 2,
+      "content": "第三轮在默认速度下大概用了10分钟",
+      "music": 0.0
+    },
+    {
+      "from": 269.69,
+      "to": 272.37,
+      "sid": 135,
+      "location": 2,
+      "content": "如果开额外开启code的快速模式",
+      "music": 0.0
+    },
+    {
+      "from": 272.37,
+      "to": 274.09,
+      "sid": 136,
+      "location": 2,
+      "content": "理想情况下是可以更快",
+      "music": 0.0
+    },
+    {
+      "from": 274.09,
+      "to": 275.71,
+      "sid": 137,
+      "location": 2,
+      "content": "还有一个成本也要讲清楚",
+      "music": 0.0
+    },
+    {
+      "from": 275.71,
+      "to": 279.57,
+      "sid": 138,
+      "location": 2,
+      "content": "第一次创建和调调试skill本身是需要时间的",
+      "music": 0.0
+    },
+    {
+      "from": 279.57,
+      "to": 282.03,
+      "sid": 139,
+      "location": 2,
+      "content": "只有当同一套流程会反复出现时",
+      "music": 0.0
+    },
+    {
+      "from": 282.03,
+      "to": 283.55,
+      "sid": 140,
+      "location": 2,
+      "content": "这段投入才有价值",
+      "music": 0.0
+    },
+    {
+      "from": 283.55,
+      "to": 285.33,
+      "sid": 141,
+      "location": 2,
+      "content": "并且会让后续的结构稳定",
+      "music": 0.0
+    },
+    {
+      "from": 285.33,
+      "to": 287.95,
+      "sid": 142,
+      "location": 2,
+      "content": "而不是说遇到什么处理过程",
+      "music": 0.0
+    },
+    {
+      "from": 287.95,
+      "to": 289.39,
+      "sid": 143,
+      "location": 2,
+      "content": "然后你就直接作为sq",
+      "music": 0.0
+    },
+    {
+      "from": 289.39,
+      "to": 290.7,
+      "sid": 144,
+      "location": 2,
+      "content": "那得不偿失",
+      "music": 0.0
+    },
+    {
+      "from": 290.7,
+      "to": 293.38,
+      "sid": 145,
+      "location": 2,
+      "content": "OK那什么什么任务适合这样做呢",
+      "music": 0.0
+    },
+    {
+      "from": 293.38,
+      "to": 296.19,
+      "sid": 146,
+      "location": 2,
+      "content": "当然就是你的项目足够庞大",
+      "music": 0.0
+    },
+    {
+      "from": 296.19,
+      "to": 299.23,
+      "sid": 147,
+      "location": 2,
+      "content": "就是已经到了几万十几万行代码的程度",
+      "music": 0.0
+    },
+    {
+      "from": 299.23,
+      "to": 301.95,
+      "sid": 148,
+      "location": 2,
+      "content": "那么你就要开始考虑一些细节化的东西了",
+      "music": 0.0
+    },
+    {
+      "from": 301.95,
+      "to": 304.13,
+      "sid": 149,
+      "location": 2,
+      "content": "比如说我们这个视频讲的这些方式",
+      "music": 0.0
+    },
+    {
+      "from": 304.13,
+      "to": 306.15,
+      "sid": 150,
+      "location": 2,
+      "content": "指定文件范围的方式",
+      "music": 0.0
+    },
+    {
+      "from": 306.15,
+      "to": 308.01,
+      "sid": 151,
+      "location": 2,
+      "content": "特别适合图标替换",
+      "music": 0.0
+    },
+    {
+      "from": 308.01,
+      "to": 312.039,
+      "sid": 152,
+      "location": 2,
+      "content": "文案修改或局部样式调整这类边界清除小的呃",
+      "music": 0.0
+    },
+    {
+      "from": 312.039,
+      "to": 312.719,
+      "sid": 153,
+      "location": 2,
+      "content": "小任务",
+      "music": 0.0
+    },
+    {
+      "from": 312.719,
+      "to": 314.819,
+      "sid": 154,
+      "location": 2,
+      "content": "如果是跨模块的bug啊",
+      "music": 0.0
+    },
+    {
+      "from": 314.819,
+      "to": 315.929,
+      "sid": 155,
+      "location": 2,
+      "content": "或者说架构重构",
+      "music": 0.0
+    },
+    {
+      "from": 315.929,
+      "to": 317.609,
+      "sid": 156,
+      "location": 2,
+      "content": "或者你根本不知道问题在哪里",
+      "music": 0.0
+    },
+    {
+      "from": 317.609,
+      "to": 319.229,
+      "sid": 157,
+      "location": 2,
+      "content": "就不要把范围卡的太死",
+      "music": 0.0
+    },
+    {
+      "from": 319.229,
+      "to": 320.749,
+      "sid": 158,
+      "location": 2,
+      "content": "可以先让AI指着定位",
+      "music": 0.0
+    },
+    {
+      "from": 320.749,
+      "to": 322.609,
+      "sid": 159,
+      "location": 2,
+      "content": "找出候选文件和依赖关系",
+      "music": 0.0
+    },
+    {
+      "from": 322.609,
+      "to": 324.89,
+      "sid": 160,
+      "location": 2,
+      "content": "确认范围之后再开启真正的修改",
+      "music": 0.0
+    },
+    {
+      "from": 324.89,
+      "to": 325.41,
+      "sid": 161,
+      "location": 2,
+      "content": "Skill",
+      "music": 0.0
+    },
+    {
+      "from": 325.41,
+      "to": 328.93,
+      "sid": 162,
+      "location": 2,
+      "content": "则是和那些真正在开发过程中重复反复出现的",
+      "music": 0.0
+    },
+    {
+      "from": 328.93,
+      "to": 330.81,
+      "sid": 163,
+      "location": 2,
+      "content": "比较固固定的流程",
+      "music": 0.0
+    },
+    {
+      "from": 330.81,
+      "to": 333.81,
+      "sid": 164,
+      "location": 2,
+      "content": "而且每次都要生成一段脚本",
+      "music": 0.0
+    },
+    {
+      "from": 333.81,
+      "to": 335.63,
+      "sid": 165,
+      "location": 2,
+      "content": "类似于脚本这种处理的方式",
+      "music": 0.0
+    },
+    {
+      "from": 335.63,
+      "to": 337.67,
+      "sid": 166,
+      "location": 2,
+      "content": "那么你最好就是把它沉淀为skill",
+      "music": 0.0
+    },
+    {
+      "from": 337.67,
+      "to": 342.159,
+      "sid": 167,
+      "location": 2,
+      "content": "因为AI的每一次生成的代码都是不尽相同的",
+      "music": 0.0
+    },
+    {
+      "from": 342.159,
+      "to": 343.779,
+      "sid": 168,
+      "location": 2,
+      "content": "所以你要成立为skill",
+      "music": 0.0
+    },
+    {
+      "from": 343.779,
+      "to": 347.879,
+      "sid": 169,
+      "location": 2,
+      "content": "会更大限度的提升这个项目的某些点的",
+      "music": 0.0
+    },
+    {
+      "from": 347.879,
+      "to": 349.24,
+      "sid": 170,
+      "location": 2,
+      "content": "一些开发效率",
+      "music": 0.0
+    },
+    {
+      "from": 349.24,
+      "to": 351.32,
+      "sid": 171,
+      "location": 2,
+      "content": "所以大项目里的AI编程",
+      "music": 0.0
+    },
+    {
+      "from": 351.32,
+      "to": 353.46,
+      "sid": 172,
+      "location": 2,
+      "content": "不论不只是单论模型能力",
+      "music": 0.0
+    },
+    {
+      "from": 353.46,
+      "to": 355.86,
+      "sid": 173,
+      "location": 2,
+      "content": "而是你又没有把项目的经验沉淀成",
+      "music": 0.0
+    },
+    {
+      "from": 355.86,
+      "to": 357.52,
+      "sid": 174,
+      "location": 2,
+      "content": "一张他能读懂的地图",
+      "music": 0.0
+    },
+    {
+      "from": 357.52,
+      "to": 359.61,
+      "sid": 175,
+      "location": 2,
+      "content": "以及一套他能直接执行的流程",
+      "music": 0.0
+    },
+    {
+      "from": 359.61,
+      "to": 361.13,
+      "sid": 176,
+      "location": 2,
+      "content": "将语言负责表达意图",
+      "music": 0.0
+    },
+    {
+      "from": 361.13,
+      "to": 363.51,
+      "sid": 177,
+      "location": 2,
+      "content": "文件范围控制上下文",
+      "music": 0.0
+    },
+    {
+      "from": 363.51,
+      "to": 367.38,
+      "sid": 178,
+      "location": 2,
+      "content": "skill去负责某一些固定的繁琐的一些流程",
+      "music": 0.0
+    },
+    {
+      "from": 367.38,
+      "to": 368.62,
+      "sid": 179,
+      "location": 2,
+      "content": "当项目越来越大",
+      "music": 0.0
+    },
+    {
+      "from": 368.62,
+      "to": 370.84,
+      "sid": 180,
+      "location": 2,
+      "content": "不要再只告诉AI我要什么结果",
+      "music": 0.0
+    },
+    {
+      "from": 370.84,
+      "to": 372.36,
+      "sid": 181,
+      "location": 2,
+      "content": "还要告诉他从哪里开始",
+      "music": 0.0
+    },
+    {
+      "from": 372.36,
+      "to": 373.44,
+      "sid": 182,
+      "location": 2,
+      "content": "遵守什么样的规则",
+      "music": 0.0
+    },
+    {
+      "from": 373.44,
+      "to": 374.61,
+      "sid": 183,
+      "location": 2,
+      "content": "怎样才算完成",
+      "music": 0.0
+    },
+    {
+      "from": 374.61,
+      "to": 377.45,
+      "sid": 184,
+      "location": 2,
+      "content": "这样才能让AI花少花时间去",
+      "music": 0.0
+    },
+    {
+      "from": 377.45,
+      "to": 380.13,
+      "sid": 185,
+      "location": 2,
+      "content": "为了你的简单的局部需求去探索项目",
+      "music": 0.0
+    },
+    {
+      "from": 380.13,
+      "to": 381.179,
+      "sid": 186,
+      "location": 2,
+      "content": "理清关系",
+      "music": 0.0
+    },
+    {
+      "from": 381.179,
+      "to": 385.05,
+      "sid": 187,
+      "location": 2,
+      "content": "而是把真正的时间还给业务本身好了",
+      "music": 0.0
+    },
+    {
+      "from": 385.05,
+      "to": 386.01,
+      "sid": 188,
+      "location": 2,
+      "content": "这期就到这",
+      "music": 0.0
+    },
+    {
+      "from": 386.01,
+      "to": 387.41,
+      "sid": 189,
+      "location": 2,
+      "content": "如果说你还有问题",
+      "music": 0.0
+    },
+    {
+      "from": 387.41,
+      "to": 388.69,
+      "sid": 190,
+      "location": 2,
+      "content": "或者说你还有更合适的",
+      "music": 0.0
+    },
+    {
+      "from": 388.69,
+      "to": 390.41,
+      "sid": 191,
+      "location": 2,
+      "content": "更更想要探讨的方案",
+      "music": 0.0
+    },
+    {
+      "from": 390.41,
+      "to": 392.26,
+      "sid": 192,
+      "location": 2,
+      "content": "欢迎在评论区留言",
+      "music": 0.0
+    }
+  ]
+}

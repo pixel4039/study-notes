@@ -1,0 +1,920 @@
+{
+  "bvid": "BV1syNg6DEFi",
+  "aid": 116907734736128,
+  "videos": 1,
+  "tid": 231,
+  "tid_v2": 2096,
+  "tname": "",
+  "tname_v2": "",
+  "copyright": 1,
+  "pic": "http://i2.hdslb.com/bfs/archive/5a2f1a13edd23c277fbaa7e14a6e6de326bebc14.jpg",
+  "title": "AI换个图标为什么要30分钟？我在10万行项目里测了3次",
+  "pubdate": 1783870511,
+  "ctime": 1783870511,
+  "desc": "在一个10万+行代码的真实项目里，我只让 AI 替换一个侧边栏图标。\n同一个模型、同一个任务，三次执行分别用了约 30、14、10 分钟。\n真正改变的不是模型能力，而是我逐步减少了两种不确定性：\nAI 应该从哪里开始找\n找到以后，应该按照什么流程执行\n这期视频会完整拆解三次过程：\n只描述结果时，AI 为什么把大量时间花在搜索和确认上\n如何提供高概率文件入口，而不是把修改范围锁死\n如何把图片处理、尺寸、命名、路径和验收固化成项目级 Skill\n哪些局部任务适合这种方式\n说明：30、14、10 分钟均为三轮单次真实记录，用于比较过程差异，不代表通用性能基准。\n你有没有遇到过“需求很小，但 AI 为了找代码跑了很久”的情况？欢迎在评论区分享你的案例。",
+  "desc_v2": [
+    {
+      "raw_text": "在一个10万+行代码的真实项目里，我只让 AI 替换一个侧边栏图标。\n同一个模型、同一个任务，三次执行分别用了约 30、14、10 分钟。\n真正改变的不是模型能力，而是我逐步减少了两种不确定性：\nAI 应该从哪里开始找\n找到以后，应该按照什么流程执行\n这期视频会完整拆解三次过程：\n只描述结果时，AI 为什么把大量时间花在搜索和确认上\n如何提供高概率文件入口，而不是把修改范围锁死\n如何把图片处理、尺寸、命名、路径和验收固化成项目级 Skill\n哪些局部任务适合这种方式\n说明：30、14、10 分钟均为三轮单次真实记录，用于比较过程差异，不代表通用性能基准。\n你有没有遇到过“需求很小，但 AI 为了找代码跑了很久”的情况？欢迎在评论区分享你的案例。",
+      "type": 1,
+      "biz_id": 0
+    }
+  ],
+  "state": 0,
+  "duration": 393,
+  "rights": {
+    "bp": 0,
+    "elec": 0,
+    "download": 1,
+    "movie": 0,
+    "pay": 0,
+    "hd5": 0,
+    "no_reprint": 1,
+    "autoplay": 1,
+    "ugc_pay": 0,
+    "is_cooperation": 0,
+    "ugc_pay_preview": 0,
+    "no_background": 0,
+    "clean_mode": 0,
+    "is_stein_gate": 0,
+    "is_360": 0,
+    "no_share": 0,
+    "arc_pay": 0,
+    "free_watch": 0
+  },
+  "owner": {
+    "mid": 395922059,
+    "name": "AI林湛星",
+    "face": "https://i2.hdslb.com/bfs/face/38375a8cd87f0dc824468a91db266dd0336377cc.jpg"
+  },
+  "stat": {
+    "aid": 116907734736128,
+    "view": 1198,
+    "danmaku": 0,
+    "reply": 5,
+    "favorite": 24,
+    "coin": 2,
+    "share": 3,
+    "now_rank": 0,
+    "his_rank": 0,
+    "like": 49,
+    "dislike": 0,
+    "evaluation": "",
+    "vt": 0
+  },
+  "argue_info": {
+    "argue_msg": "",
+    "argue_type": 0,
+    "argue_link": ""
+  },
+  "dynamic": "AI在小需求时反而耗时，token量消耗过大？这套方法可以事半功倍",
+  "cid": 39888946229,
+  "dimension": {
+    "width": 2560,
+    "height": 1440,
+    "rotate": 0
+  },
+  "season_id": 8306771,
+  "premiere": null,
+  "teenage_mode": 1,
+  "is_chargeable_season": false,
+  "is_story": false,
+  "is_upower_exclusive": false,
+  "is_upower_play": false,
+  "is_upower_preview": false,
+  "enable_vt": 0,
+  "vt_display": "",
+  "is_upower_exclusive_with_qa": false,
+  "no_cache": false,
+  "pages": [
+    {
+      "cid": 39888946229,
+      "page": 1,
+      "from": "vupload",
+      "part": "AI换个图标为什么要30分钟？我在10万行项目里测了3次",
+      "duration": 393,
+      "vid": "",
+      "weblink": "",
+      "dimension": {
+        "width": 2560,
+        "height": 1440,
+        "rotate": 0
+      },
+      "first_frame": "http://i1.hdslb.com/bfs/storyff/_00000s1adfxaaf60k269z2efwjjvljb_firsti.jpg",
+      "ctime": 1783870511
+    }
+  ],
+  "subtitle": {
+    "allow_submit": false,
+    "list": [
+      {
+        "id": 2061250048649642752,
+        "lan": "ai-zh",
+        "lan_doc": "中文",
+        "is_lock": false,
+        "subtitle_url": "",
+        "type": 1,
+        "id_str": "2061250048649642752",
+        "ai_type": 0,
+        "ai_status": 2,
+        "subtitle_height": null,
+        "author": {
+          "mid": 0,
+          "name": "",
+          "sex": "",
+          "face": "",
+          "sign": "",
+          "rank": 0,
+          "birthday": 0,
+          "is_fake_account": 0,
+          "is_deleted": 0,
+          "in_reg_audit": 0,
+          "is_senior_member": 0,
+          "name_render": null,
+          "handle": ""
+        }
+      }
+    ]
+  },
+  "ugc_season": {
+    "id": 8306771,
+    "title": "AI编程工程化",
+    "cover": "https://archive.biliimg.com/bfs/archive/8fe6c0d4b8d55af0b7f9b08aa0f7fcd4ada953d5.jpg",
+    "mid": 395922059,
+    "intro": "",
+    "sign_state": 0,
+    "attribute": 140,
+    "sections": [
+      {
+        "season_id": 8306771,
+        "id": 9234070,
+        "title": "正片",
+        "type": 1,
+        "episodes": [
+          {
+            "season_id": 8306771,
+            "section_id": 9234070,
+            "id": 200914712,
+            "aid": 116718957501183,
+            "cid": 38979308934,
+            "title": "AI编程项目为什么总是烂尾？长期项目迭代先给 AI 画边界",
+            "attribute": 0,
+            "arc": {
+              "aid": 116718957501183,
+              "videos": 0,
+              "type_id": 0,
+              "type_name": "",
+              "copyright": 0,
+              "pic": "http://i1.hdslb.com/bfs/archive/4612d1c128a7cd8e9b7972ccd9bb537d47a70892.jpg",
+              "title": "AI编程项目为什么总是烂尾？长期项目迭代先给 AI 画边界",
+              "pubdate": 1780990231,
+              "ctime": 1780990231,
+              "desc": "",
+              "state": 0,
+              "duration": 577,
+              "rights": {
+                "bp": 0,
+                "elec": 0,
+                "download": 0,
+                "movie": 0,
+                "pay": 0,
+                "hd5": 0,
+                "no_reprint": 0,
+                "autoplay": 0,
+                "ugc_pay": 0,
+                "is_cooperation": 0,
+                "ugc_pay_preview": 0,
+                "arc_pay": 0,
+                "free_watch": 0
+              },
+              "author": {
+                "mid": 395922059,
+                "name": "AI林湛星",
+                "face": "https://i2.hdslb.com/bfs/face/38375a8cd87f0dc824468a91db266dd0336377cc.jpg"
+              },
+              "stat": {
+                "aid": 116718957501183,
+                "view": 15152,
+                "danmaku": 6,
+                "reply": 96,
+                "fav": 1586,
+                "coin": 273,
+                "share": 155,
+                "now_rank": 0,
+                "his_rank": 0,
+                "like": 604,
+                "dislike": 0,
+                "evaluation": "",
+                "argue_msg": "",
+                "vt": 0,
+                "vv": 15152
+              },
+              "dynamic": "",
+              "dimension": {
+                "width": 0,
+                "height": 0,
+                "rotate": 0
+              },
+              "desc_v2": null,
+              "is_chargeable_season": false,
+              "is_blooper": false,
+              "enable_vt": 0,
+              "vt_display": "",
+              "type_id_v2": 0,
+              "type_name_v2": "",
+              "is_lesson_video": 0
+            },
+            "page": {
+              "cid": 38979308934,
+              "page": 1,
+              "from": "vupload",
+              "part": "AI编程项目为什么总是烂尾？长期项目迭代先给 AI 画边界",
+              "duration": 577,
+              "vid": "",
+              "weblink": "",
+              "dimension": {
+                "width": 2560,
+                "height": 1440,
+                "rotate": 0
+              }
+            },
+            "bvid": "BV1L2EE6bEeh",
+            "pages": [
+              {
+                "cid": 38979308934,
+                "page": 1,
+                "from": "vupload",
+                "part": "AI编程项目为什么总是烂尾？长期项目迭代先给 AI 画边界",
+                "duration": 577,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                  "width": 2560,
+                  "height": 1440,
+                  "rotate": 0
+                }
+              }
+            ]
+          },
+          {
+            "season_id": 8306771,
+            "section_id": 9234070,
+            "id": 200914813,
+            "aid": 116701576304338,
+            "cid": 38900600709,
+            "title": "AI编程别一开始就写太多spec，MVP阶段放开抡",
+            "attribute": 0,
+            "arc": {
+              "aid": 116701576304338,
+              "videos": 0,
+              "type_id": 0,
+              "type_name": "",
+              "copyright": 0,
+              "pic": "http://i2.hdslb.com/bfs/archive/b58b0bdfe3092584a5d6992c3657b996978eba2e.jpg",
+              "title": "AI编程别一开始就写太多spec，MVP阶段放开抡",
+              "pubdate": 1780724988,
+              "ctime": 1780724988,
+              "desc": "",
+              "state": 0,
+              "duration": 541,
+              "rights": {
+                "bp": 0,
+                "elec": 0,
+                "download": 0,
+                "movie": 0,
+                "pay": 0,
+                "hd5": 0,
+                "no_reprint": 0,
+                "autoplay": 0,
+                "ugc_pay": 0,
+                "is_cooperation": 0,
+                "ugc_pay_preview": 0,
+                "arc_pay": 0,
+                "free_watch": 0
+              },
+              "author": {
+                "mid": 395922059,
+                "name": "AI林湛星",
+                "face": "https://i2.hdslb.com/bfs/face/38375a8cd87f0dc824468a91db266dd0336377cc.jpg"
+              },
+              "stat": {
+                "aid": 116701576304338,
+                "view": 4644,
+                "danmaku": 0,
+                "reply": 48,
+                "fav": 282,
+                "coin": 69,
+                "share": 30,
+                "now_rank": 0,
+                "his_rank": 0,
+                "like": 146,
+                "dislike": 0,
+                "evaluation": "",
+                "argue_msg": "",
+                "vt": 0,
+                "vv": 4644
+              },
+              "dynamic": "",
+              "dimension": {
+                "width": 0,
+                "height": 0,
+                "rotate": 0
+              },
+              "desc_v2": null,
+              "is_chargeable_season": false,
+              "is_blooper": false,
+              "enable_vt": 0,
+              "vt_display": "",
+              "type_id_v2": 0,
+              "type_name_v2": "",
+              "is_lesson_video": 0
+            },
+            "page": {
+              "cid": 38900600709,
+              "page": 1,
+              "from": "vupload",
+              "part": "AI编程别一开始就写厚文档，0-1阶段反而可以这样做",
+              "duration": 541,
+              "vid": "",
+              "weblink": "",
+              "dimension": {
+                "width": 2560,
+                "height": 1440,
+                "rotate": 0
+              }
+            },
+            "bvid": "BV1pB7U6pEii",
+            "pages": [
+              {
+                "cid": 38900600709,
+                "page": 1,
+                "from": "vupload",
+                "part": "AI编程别一开始就写厚文档，0-1阶段反而可以这样做",
+                "duration": 541,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                  "width": 2560,
+                  "height": 1440,
+                  "rotate": 0
+                }
+              }
+            ]
+          },
+          {
+            "season_id": 8306771,
+            "section_id": 9234070,
+            "id": 200914878,
+            "aid": 116673105369277,
+            "cid": 38762971598,
+            "title": "AI 编程的 spec 到底该什么时候写？和先写文档完全相反",
+            "attribute": 0,
+            "arc": {
+              "aid": 116673105369277,
+              "videos": 0,
+              "type_id": 0,
+              "type_name": "",
+              "copyright": 0,
+              "pic": "http://i0.hdslb.com/bfs/archive/d7428cb119dbc603b244a6931b5430092115073d.jpg",
+              "title": "AI 编程的 spec 到底该什么时候写？和先写文档完全相反",
+              "pubdate": 1780290510,
+              "ctime": 1780290510,
+              "desc": "",
+              "state": 0,
+              "duration": 853,
+              "rights": {
+                "bp": 0,
+                "elec": 0,
+                "download": 0,
+                "movie": 0,
+                "pay": 0,
+                "hd5": 0,
+                "no_reprint": 0,
+                "autoplay": 0,
+                "ugc_pay": 0,
+                "is_cooperation": 0,
+                "ugc_pay_preview": 0,
+                "arc_pay": 0,
+                "free_watch": 0
+              },
+              "author": {
+                "mid": 395922059,
+                "name": "AI林湛星",
+                "face": "https://i2.hdslb.com/bfs/face/38375a8cd87f0dc824468a91db266dd0336377cc.jpg"
+              },
+              "stat": {
+                "aid": 116673105369277,
+                "view": 27083,
+                "danmaku": 21,
+                "reply": 181,
+                "fav": 1784,
+                "coin": 482,
+                "share": 198,
+                "now_rank": 0,
+                "his_rank": 0,
+                "like": 944,
+                "dislike": 0,
+                "evaluation": "",
+                "argue_msg": "",
+                "vt": 0,
+                "vv": 27083
+              },
+              "dynamic": "",
+              "dimension": {
+                "width": 0,
+                "height": 0,
+                "rotate": 0
+              },
+              "desc_v2": null,
+              "is_chargeable_season": false,
+              "is_blooper": false,
+              "enable_vt": 0,
+              "vt_display": "",
+              "type_id_v2": 0,
+              "type_name_v2": "",
+              "is_lesson_video": 0
+            },
+            "page": {
+              "cid": 38762971598,
+              "page": 1,
+              "from": "vupload",
+              "part": "AI 编程的 spec 到底该什么时候写？个人开发经历给你参考",
+              "duration": 853,
+              "vid": "",
+              "weblink": "",
+              "dimension": {
+                "width": 2560,
+                "height": 1440,
+                "rotate": 0
+              }
+            },
+            "bvid": "BV1jSVd6WE6Z",
+            "pages": [
+              {
+                "cid": 38762971598,
+                "page": 1,
+                "from": "vupload",
+                "part": "AI 编程的 spec 到底该什么时候写？个人开发经历给你参考",
+                "duration": 853,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                  "width": 2560,
+                  "height": 1440,
+                  "rotate": 0
+                }
+              }
+            ]
+          },
+          {
+            "season_id": 8306771,
+            "section_id": 9234070,
+            "id": 200914910,
+            "aid": 116628343756892,
+            "cid": 38575342475,
+            "title": "AI编程越写越乱？我用水桶装水，把边界讲透，快速认识spec与harness",
+            "attribute": 0,
+            "arc": {
+              "aid": 116628343756892,
+              "videos": 0,
+              "type_id": 0,
+              "type_name": "",
+              "copyright": 0,
+              "pic": "http://i2.hdslb.com/bfs/archive/7ede694c71924335b2b9cb3c05310b53ec472c46.jpg",
+              "title": "AI编程越写越乱？我用水桶装水，把边界讲透，快速认识spec与harness",
+              "pubdate": 1779607407,
+              "ctime": 1779607407,
+              "desc": "",
+              "state": 0,
+              "duration": 429,
+              "rights": {
+                "bp": 0,
+                "elec": 0,
+                "download": 0,
+                "movie": 0,
+                "pay": 0,
+                "hd5": 0,
+                "no_reprint": 0,
+                "autoplay": 0,
+                "ugc_pay": 0,
+                "is_cooperation": 0,
+                "ugc_pay_preview": 0,
+                "arc_pay": 0,
+                "free_watch": 0
+              },
+              "author": {
+                "mid": 395922059,
+                "name": "AI林湛星",
+                "face": "https://i2.hdslb.com/bfs/face/38375a8cd87f0dc824468a91db266dd0336377cc.jpg"
+              },
+              "stat": {
+                "aid": 116628343756892,
+                "view": 11978,
+                "danmaku": 9,
+                "reply": 66,
+                "fav": 785,
+                "coin": 170,
+                "share": 95,
+                "now_rank": 0,
+                "his_rank": 0,
+                "like": 466,
+                "dislike": 0,
+                "evaluation": "",
+                "argue_msg": "",
+                "vt": 0,
+                "vv": 11978
+              },
+              "dynamic": "",
+              "dimension": {
+                "width": 0,
+                "height": 0,
+                "rotate": 0
+              },
+              "desc_v2": null,
+              "is_chargeable_season": false,
+              "is_blooper": false,
+              "enable_vt": 0,
+              "vt_display": "",
+              "type_id_v2": 0,
+              "type_name_v2": "",
+              "is_lesson_video": 0
+            },
+            "page": {
+              "cid": 38575342475,
+              "page": 1,
+              "from": "vupload",
+              "part": "AI编程越写越乱？我用水桶装水，把边界讲透，快速认识spec与harness",
+              "duration": 429,
+              "vid": "",
+              "weblink": "",
+              "dimension": {
+                "width": 2560,
+                "height": 1440,
+                "rotate": 0
+              }
+            },
+            "bvid": "BV1bxG76aEfB",
+            "pages": [
+              {
+                "cid": 38575342475,
+                "page": 1,
+                "from": "vupload",
+                "part": "AI编程越写越乱？我用水桶装水，把边界讲透，快速认识spec与harness",
+                "duration": 429,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                  "width": 2560,
+                  "height": 1440,
+                  "rotate": 0
+                }
+              }
+            ]
+          },
+          {
+            "season_id": 8306771,
+            "section_id": 9234070,
+            "id": 202393886,
+            "aid": 116757830374602,
+            "cid": 39153305068,
+            "title": "10万代码量真实项目，我是如何防止AI把旧功能改坏的？",
+            "attribute": 0,
+            "arc": {
+              "aid": 116757830374602,
+              "videos": 0,
+              "type_id": 0,
+              "type_name": "",
+              "copyright": 0,
+              "pic": "http://i1.hdslb.com/bfs/archive/b6d22eefac2f6dfe9b2c5225ac812ff0fa446d29.jpg",
+              "title": "10万代码量真实项目，我是如何防止AI把旧功能改坏的？",
+              "pubdate": 1781583350,
+              "ctime": 1781583350,
+              "desc": "",
+              "state": 0,
+              "duration": 1084,
+              "rights": {
+                "bp": 0,
+                "elec": 0,
+                "download": 0,
+                "movie": 0,
+                "pay": 0,
+                "hd5": 0,
+                "no_reprint": 0,
+                "autoplay": 0,
+                "ugc_pay": 0,
+                "is_cooperation": 0,
+                "ugc_pay_preview": 0,
+                "arc_pay": 0,
+                "free_watch": 0
+              },
+              "author": {
+                "mid": 395922059,
+                "name": "AI林湛星",
+                "face": "https://i2.hdslb.com/bfs/face/38375a8cd87f0dc824468a91db266dd0336377cc.jpg"
+              },
+              "stat": {
+                "aid": 116757830374602,
+                "view": 5179,
+                "danmaku": 5,
+                "reply": 56,
+                "fav": 390,
+                "coin": 72,
+                "share": 35,
+                "now_rank": 0,
+                "his_rank": 0,
+                "like": 181,
+                "dislike": 0,
+                "evaluation": "",
+                "argue_msg": "",
+                "vt": 0,
+                "vv": 5179
+              },
+              "dynamic": "",
+              "dimension": {
+                "width": 0,
+                "height": 0,
+                "rotate": 0
+              },
+              "desc_v2": null,
+              "is_chargeable_season": false,
+              "is_blooper": false,
+              "enable_vt": 0,
+              "vt_display": "",
+              "type_id_v2": 0,
+              "type_name_v2": "",
+              "is_lesson_video": 0
+            },
+            "page": {
+              "cid": 39153305068,
+              "page": 1,
+              "from": "vupload",
+              "part": "10万代码量真实项目，我是如何防止AI把旧功能改坏的？",
+              "duration": 1084,
+              "vid": "",
+              "weblink": "",
+              "dimension": {
+                "width": 2560,
+                "height": 1440,
+                "rotate": 0
+              }
+            },
+            "bvid": "BV1mhjg6SEJy",
+            "pages": [
+              {
+                "cid": 39153305068,
+                "page": 1,
+                "from": "vupload",
+                "part": "10万代码量真实项目，我是如何防止AI把旧功能改坏的？",
+                "duration": 1084,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                  "width": 2560,
+                  "height": 1440,
+                  "rotate": 0
+                }
+              }
+            ]
+          },
+          {
+            "season_id": 8306771,
+            "section_id": 9234070,
+            "id": 204157679,
+            "aid": 116803833435144,
+            "cid": 39362889913,
+            "title": "你写了一堆文档AI还是不听话？问题不在文档本身",
+            "attribute": 0,
+            "arc": {
+              "aid": 116803833435144,
+              "videos": 0,
+              "type_id": 0,
+              "type_name": "",
+              "copyright": 0,
+              "pic": "http://i0.hdslb.com/bfs/archive/b4be98ddac975f1fb7d8d774e814c776a51660ae.jpg",
+              "title": "你写了一堆文档AI还是不听话？问题不在文档本身",
+              "pubdate": 1782285089,
+              "ctime": 1782285089,
+              "desc": "",
+              "state": 0,
+              "duration": 524,
+              "rights": {
+                "bp": 0,
+                "elec": 0,
+                "download": 0,
+                "movie": 0,
+                "pay": 0,
+                "hd5": 0,
+                "no_reprint": 0,
+                "autoplay": 0,
+                "ugc_pay": 0,
+                "is_cooperation": 0,
+                "ugc_pay_preview": 0,
+                "arc_pay": 0,
+                "free_watch": 0
+              },
+              "author": {
+                "mid": 395922059,
+                "name": "AI林湛星",
+                "face": "https://i2.hdslb.com/bfs/face/38375a8cd87f0dc824468a91db266dd0336377cc.jpg"
+              },
+              "stat": {
+                "aid": 116803833435144,
+                "view": 2033,
+                "danmaku": 2,
+                "reply": 12,
+                "fav": 88,
+                "coin": 22,
+                "share": 8,
+                "now_rank": 0,
+                "his_rank": 0,
+                "like": 78,
+                "dislike": 0,
+                "evaluation": "",
+                "argue_msg": "",
+                "vt": 0,
+                "vv": 2033
+              },
+              "dynamic": "",
+              "dimension": {
+                "width": 0,
+                "height": 0,
+                "rotate": 0
+              },
+              "desc_v2": null,
+              "is_chargeable_season": false,
+              "is_blooper": false,
+              "enable_vt": 0,
+              "vt_display": "",
+              "type_id_v2": 0,
+              "type_name_v2": "",
+              "is_lesson_video": 0
+            },
+            "page": {
+              "cid": 39362889913,
+              "page": 1,
+              "from": "vupload",
+              "part": "你写了一堆文档AI还是不听话？问题不在文档本身",
+              "duration": 524,
+              "vid": "",
+              "weblink": "",
+              "dimension": {
+                "width": 1920,
+                "height": 1440,
+                "rotate": 0
+              }
+            },
+            "bvid": "BV1NBjd6kEEJ",
+            "pages": [
+              {
+                "cid": 39362889913,
+                "page": 1,
+                "from": "vupload",
+                "part": "你写了一堆文档AI还是不听话？问题不在文档本身",
+                "duration": 524,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                  "width": 1920,
+                  "height": 1440,
+                  "rotate": 0
+                }
+              }
+            ]
+          },
+          {
+            "season_id": 8306771,
+            "section_id": 9234070,
+            "id": 208310996,
+            "aid": 116907734736128,
+            "cid": 39888946229,
+            "title": "AI换个图标为什么要30分钟？我在10万行项目里测了3次",
+            "attribute": 0,
+            "arc": {
+              "aid": 116907734736128,
+              "videos": 0,
+              "type_id": 0,
+              "type_name": "",
+              "copyright": 0,
+              "pic": "http://i2.hdslb.com/bfs/archive/5a2f1a13edd23c277fbaa7e14a6e6de326bebc14.jpg",
+              "title": "AI换个图标为什么要30分钟？我在10万行项目里测了3次",
+              "pubdate": 1783870511,
+              "ctime": 1783870511,
+              "desc": "",
+              "state": 0,
+              "duration": 393,
+              "rights": {
+                "bp": 0,
+                "elec": 0,
+                "download": 0,
+                "movie": 0,
+                "pay": 0,
+                "hd5": 0,
+                "no_reprint": 0,
+                "autoplay": 0,
+                "ugc_pay": 0,
+                "is_cooperation": 0,
+                "ugc_pay_preview": 0,
+                "arc_pay": 0,
+                "free_watch": 0
+              },
+              "author": {
+                "mid": 395922059,
+                "name": "AI林湛星",
+                "face": "https://i2.hdslb.com/bfs/face/38375a8cd87f0dc824468a91db266dd0336377cc.jpg"
+              },
+              "stat": {
+                "aid": 116907734736128,
+                "view": 1198,
+                "danmaku": 0,
+                "reply": 5,
+                "fav": 24,
+                "coin": 2,
+                "share": 3,
+                "now_rank": 0,
+                "his_rank": 0,
+                "like": 49,
+                "dislike": 0,
+                "evaluation": "",
+                "argue_msg": "",
+                "vt": 0,
+                "vv": 1198
+              },
+              "dynamic": "",
+              "dimension": {
+                "width": 0,
+                "height": 0,
+                "rotate": 0
+              },
+              "desc_v2": null,
+              "is_chargeable_season": false,
+              "is_blooper": false,
+              "enable_vt": 0,
+              "vt_display": "",
+              "type_id_v2": 0,
+              "type_name_v2": "",
+              "is_lesson_video": 0
+            },
+            "page": {
+              "cid": 39888946229,
+              "page": 1,
+              "from": "vupload",
+              "part": "AI换个图标为什么要30分钟？我在10万行项目里测了3次",
+              "duration": 393,
+              "vid": "",
+              "weblink": "",
+              "dimension": {
+                "width": 2560,
+                "height": 1440,
+                "rotate": 0
+              }
+            },
+            "bvid": "BV1syNg6DEFi",
+            "pages": [
+              {
+                "cid": 39888946229,
+                "page": 1,
+                "from": "vupload",
+                "part": "AI换个图标为什么要30分钟？我在10万行项目里测了3次",
+                "duration": 393,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                  "width": 2560,
+                  "height": 1440,
+                  "rotate": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stat": {
+      "season_id": 8306771,
+      "view": 67267,
+      "danmaku": 43,
+      "reply": 464,
+      "fav": 4939,
+      "coin": 1090,
+      "share": 524,
+      "now_rank": 0,
+      "his_rank": 0,
+      "like": 2463,
+      "vt": 0,
+      "vv": 0
+    },
+    "ep_count": 7,
+    "season_type": 1,
+    "is_pay_season": false,
+    "enable_vt": 0
+  },
+  "is_season_display": true,
+  "user_garb": {
+    "url_image_ani_cut": "https://i0.hdslb.com/bfs/garb/aa477b8a28d3eeb9af692d696877954a953aece2.bin"
+  },
+  "honor_reply": {},
+  "like_icon": "",
+  "need_jump_bv": false,
+  "disable_show_up_info": false,
+  "is_story_play": 1,
+  "is_view_self": false
+}
