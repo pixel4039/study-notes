@@ -1,6 +1,6 @@
 # study-notes Schema
 
-来源:`resources/decisions/2026-07-15__proposal__study-notes-schema-assembly.md`(2026-07-15 用户批准,7 个待批点按默认值生效)。本文件是该总装文书在仓库内的落地正文;冲突时以批准文书为准。
+来源:`/home/ubuntu/ops-notes/decisions/2026-07-15__proposal__study-notes-schema-assembly.md`(2026-07-15 用户批准,7 个待批点按默认值生效)。本文件是该总装文书在仓库内的落地正文;冲突时以批准文书为准。
 
 ## 目录布局
 
@@ -65,4 +65,4 @@ author: hermes | claude | codex | user        # created >= 2026-07-15 必填
 
 ## 索引与日志义务
 
-新重要页面登记 `_index.md`(课程/来源目录用 bundle 行,路径尾 `/`);重要动作在 `log.md` 追加一行。Scope Recall 只存指向本仓库的检索锚点(见 resources 锚点桥接合同),不存正文副本。
+新重要页面登记 `_index.md`(课程/来源目录用 bundle 行,路径尾 `/`);重要动作在 `log.md` 追加一行。Scope Recall 只存指向本仓库的检索锚点(见 `/home/ubuntu/ops-notes/decisions/2026-07-15__proposal__scope-recall-anchor-bridge-contract.md`),不存正文副本。

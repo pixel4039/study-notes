@@ -35,3 +35,7 @@
 - 配套文档:`阅读指南.md` 补「随文留言写法」(callout 语法、收割节奏、批准蒸馏标记)与「边读边问怎么问」(QQ/微信找 Sol,带 BVID + 原文引文,沿用现有 Scope Recall 通道,不新建聊天入口)两节;`SCHEMA.md` annotations 小节补收割约定一句;`.gitignore` 追加 `.harvest.log`、`.harvest.lock`;`_index.md` 登记两个新脚本。
 - 本次提交只写 `study-notes/` 与 `/tmp/harvest-build-20260716/`,未 push、未装 crontab,遵守合同硬边界。
 - Claude 验收(2026-07-16 晚):首轮取证抓出相邻 `[!留]` 合并且标记泄漏正文的 bug(续行循环未在新 callout 起始停止),修复轮补:相邻留言各自独立成条、`.gitignore` 补 `__pycache__/`、写入改同目录 tempfile+os.replace 原子替换(含故障注入测试);测试 12→15 个全绿,Haiku 独立沙箱复验通过后终审放行。crontab 仍未安装,待主人另批。
+
+## [2026-07-16] governance | 迁移后活跃规则指针修正(Codex)
+- 经主人授权，将 `AGENTS.md` 中已退役的 `resources/study/`、旧 `hermes-vps-notes` 与 `resources/decisions/...` 指针更新为只读归档、当前 `/home/ubuntu/ops-notes` 真源和现行远端；同步修正 `SCHEMA.md` 的批准文书与 Scope Recall 合同路径。
+- 未改写 legacy 课程正文或历史记录；`python3 scripts/test_harvest.py` 复验 15/15 通过。
