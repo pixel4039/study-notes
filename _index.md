@@ -2,6 +2,7 @@
 
 | 日期 | 条目 | 类型 | 摘要 | 本地路径 | 同步状态 |
 |---|---|---|---|---|---|
+| 2026-07-22 | [B站：AIlazy俊 / UID 44153211](sources/bilibili/44153211/视频索引.md) | source | AI编程工具/开源评测UP主，103投稿，最新10条已录（风控限制未获全量） | sources/bilibili/44153211/ | 本地 |
 | 2026-07-22 | [B站：萌萌的梦问问 / BV12ELn6yEmB](sources/bilibili/350704649/视频索引.md) | source | scope-recall 插件作者介绍视频 + 评论区原话（梦境功能、V2计划、论文线索） | sources/bilibili/350704649/ | 本地 |
 | 2026-07-21 | [B站：Gelai_AI / BV1us5r6MEg6](sources/bilibili/19375009/视频索引.md) | source | Matt Pocock AI 编程工作流全流程转录稿 + wiki D2 候选 | sources/bilibili/19375009/ | 本地 |
 | 2026-07-16 | [SCHEMA.md](SCHEMA.md) | index | 仓库 Schema(已批总装文书落地):三层结构、episode 状态机、D0–D5、legacy 兼容；批准文书与 Scope Recall 合同指向当前 ops-notes 真源 | SCHEMA.md | 已同步 |
