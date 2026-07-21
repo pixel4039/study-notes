@@ -2,6 +2,7 @@
 
 | 日期 | 条目 | 类型 | 摘要 | 本地路径 | 同步状态 |
 |---|---|---|---|---|---|
+| 2026-07-21 | [B站：Gelai_AI / BV1us5r6MEg6](sources/bilibili/19375009/视频索引.md) | source | Matt Pocock AI 编程工作流全流程转录稿 + wiki D2 候选 | sources/bilibili/19375009/ | 本地 |
 | 2026-07-16 | [SCHEMA.md](SCHEMA.md) | index | 仓库 Schema(已批总装文书落地):三层结构、episode 状态机、D0–D5、legacy 兼容；批准文书与 Scope Recall 合同指向当前 ops-notes 真源 | SCHEMA.md | 已同步 |
 | 2026-07-16 | [AGENTS.md](AGENTS.md) | index | 仓库规则入口:三层铁律、legacy bundle 边界、退役归档与当前 ops-notes 边界 | AGENTS.md | 已同步 |
 | 2026-07-16 | [wiki/index.md](wiki/index.md) | index | 学科分支导航图入口(骨架) | wiki/index.md | 未同步 |

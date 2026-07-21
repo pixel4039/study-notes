@@ -1,5 +1,12 @@
 # wiki 审批日志
 
+## [2026-07-21] candidate | Matt Pocock AI 编程工作流 D2 候选(Hermes)
+
+- 来源：B站 BV1us5r6MEg6（Gelai_AI / MID 19375009），AI Engineer 大会 Full Walkthrough + Skills v1.1。
+- 转录稿入 `sources/bilibili/19375009/transcripts/2026/`。
+- 候选入 `wiki/_candidates/2026-07-21__D2__ai-coding-workflow__matt-pocock-workflow.md`，D2 级（细化），等主人阅读后走 D0-D5。
+- 拟挂载：wiki/index.md → 计算机/AI → AI 编程工程化。
+
 ## [2026-07-16] review | BV1syNg6DEFi P01 finished-trigger D0–D5 重判(Codex)
 
 - 主人已读完 P01 并确认 annotation `^an-bv1syng6defi-p01-001`，状态为 `tentative: false`。
