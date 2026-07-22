@@ -6,7 +6,8 @@
 | 2026-07-22 | [YouTube AI编程学习资源](sources/youtube/2026/ai-programming-agents-2026-07.md) | source | 15个精选视频：Karpathy/Matt Pocock/Loop Engineering/Codex实战，含学习路线 | sources/youtube/2026/ | 本地 |
 | 2026-07-22 | [B站：AIlazy俊 / UID 44153211](sources/bilibili/44153211/视频索引.md) | source | AI编程工具/开源评测UP主，103投稿，最新10条已录（风控限制未获全量） | sources/bilibili/44153211/ | 本地 |
 | 2026-07-22 | [B站：萌萌的梦问问 / BV12ELn6yEmB](sources/bilibili/350704649/视频索引.md) | source | scope-recall 插件作者介绍视频 + 评论区原话（梦境功能、V2计划、论文线索） | sources/bilibili/350704649/ | 本地 |
-| 2026-07-23 | [B站：刘大涛丨实用心理学 / BV1sFTF6ZEtY](sources/bilibili/702483062/视频索引.md) | source | 学习的第一性原理7条：自学/归纳/复盘/理解/基础/体系/专注，评论区原话 | sources/bilibili/702483062/ | 本地 |
+|| 2026-07-23 | [B站：小天fotos / BV1cyMi6tEqU](sources/bilibili/28554995/视频索引.md) | source | homerail开源贾维斯：语音多Agent编排系统，面向家庭NAS/数据中心 | sources/bilibili/28554995/ | 本地 |
+|| 2026-07-23 | [B站：刘大涛丨实用心理学 / BV1sFTF6ZEtY](sources/bilibili/702483062/视频索引.md) | source | 学习的第一性原理7条：自学/归纳/复盘/理解/基础/体系/专注，评论区原话 | sources/bilibili/702483062/ | 本地 |
 | 2026-07-21 | [B站：Gelai_AI / BV1us5r6MEg6](sources/bilibili/19375009/视频索引.md) | source | Matt Pocock AI 编程工作流全流程转录稿 + wiki D2 候选 | sources/bilibili/19375009/ | 本地 |
 | 2026-07-16 | [SCHEMA.md](SCHEMA.md) | index | 仓库 Schema(已批总装文书落地):三层结构、episode 状态机、D0–D5、legacy 兼容；批准文书与 Scope Recall 合同指向当前 ops-notes 真源 | SCHEMA.md | 已同步 |
 | 2026-07-16 | [AGENTS.md](AGENTS.md) | index | 仓库规则入口:三层铁律、legacy bundle 边界、退役归档与当前 ops-notes 边界 | AGENTS.md | 已同步 |
