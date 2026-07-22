@@ -40,6 +40,12 @@
 - 经主人授权，将 `AGENTS.md` 中已退役的 `resources/study/`、旧 `hermes-vps-notes` 与 `resources/decisions/...` 指针更新为只读归档、当前 `/home/ubuntu/ops-notes` 真源和现行远端；同步修正 `SCHEMA.md` 的批准文书与 Scope Recall 合同路径。
 - 未改写 legacy 课程正文或历史记录；`python3 scripts/test_harvest.py` 复验 15/15 通过。
 
+## [2026-07-23] ingest | B站 BV147KK62EJ9 P01 入库(Hermes)
+- UP 赚钱养猫猫Cas (MID 225439804) 首条视频入库：Whispera 实时语音对话项目（ASR+LLM+TTS）。
+- 平台未提供字幕/AI 总结，使用 faster-whisper base 模型 (int8, cpu) 转写 68 段，23.5 秒完成。
+- 视频 metadata 保存至 raw/2026/BV147KK62EJ9/metadata.json。
+- 转录稿 + 视频索引创建完成，阅读状态：未读。
+
 ## [2026-07-16] migrate | 摄影测量原始提取资料归位(Codex)
 - 按主人批准的 `HOME-EG-SR-GEMINI-20260716` 合同，将迁移前遗留在 ops-notes 忽略目录的 11 份摄影测量 `.txt` 路由到 `sources/course-materials/photogrammetry/raw-extracted/`。
 - 迁移前后 SHA-256 逐文件一致；study-notes 全树无同哈希副本，未覆盖或改造 `photogrammetry-final-review/` legacy bundle。新增局部 `_index.md` 与 `intake.md` 记录来源、唯一真源和回滚路径。

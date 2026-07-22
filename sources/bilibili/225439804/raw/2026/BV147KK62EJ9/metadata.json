@@ -1,0 +1,38 @@
+ok: true
+schema_version: '1'
+data:
+  video:
+    id: BV147KK62EJ9
+    bvid: BV147KK62EJ9
+    aid: 116941305940185
+    title: B站最好的实时对话项目！代码已开源【B站AI创造公开赛】
+    description: 'ASR+LLM+TTS 实时对话项目
+
+      仓库：https://github.com/maomao-2001/Whispera
+
+      夸克网盘：https://pan.quark.cn/s/70e462758ad6?pwd=UDNZ
+
+      LLM下载：https://hf-mirror.com/unsloth/Qwen3.5-9B-GGUF/tree/main'
+    duration_seconds: 169
+    duration: 02:49
+    url: https://www.bilibili.com/video/BV147KK62EJ9
+    owner:
+      id: '225439804'
+      name: 赚钱养猫猫Cas
+    stats:
+      view: 888
+      danmaku: 0
+      like: 44
+      coin: 22
+      favorite: 132
+      share: 10
+  subtitle:
+    available: false
+    format: plain
+    text: ''
+    items: []
+  ai_summary: ''
+  comments: []
+  related: []
+  warnings: []
+
