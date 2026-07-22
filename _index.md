@@ -9,7 +9,8 @@
 ||| 2026-07-23 | [B站：小天fotos / BV1cyMi6tEqU](sources/bilibili/28554995/视频索引.md) | source | homerail开源贾维斯：语音多Agent编排系统，面向家庭NAS/数据中心 | sources/bilibili/28554995/ | 本地 |
 || 2026-07-23 | [B站：赚钱养猫猫Cas / BV147KK62EJ9](sources/bilibili/225439804/视频索引.md) | source | Whispera 开源实时语音对话项目：ASR+LLM+TTS，支持1.5B/2B模型切换与API模式 | sources/bilibili/225439804/ | 本地 |
 || 2026-07-23 | [B站：刘大涛丨实用心理学 / BV1sFTF6ZEtY](sources/bilibili/702483062/视频索引.md) | source | 学习的第一性原理7条：自学/归纳/复盘/理解/基础/体系/专注，评论区原话 | sources/bilibili/702483062/ | 本地 |
-| 2026-07-21 | [B站：Gelai_AI / BV1us5r6MEg6](sources/bilibili/19375009/视频索引.md) | source | Matt Pocock AI 编程工作流全流程转录稿 + wiki D2 候选 | sources/bilibili/19375009/ | 本地 |
+|| 2026-07-23 | [B站AI创造公开赛参赛作品总结](sources/bilibili/ai-creation-contest/2026-总结.md) | source | B站AI创造公开赛深度分析：五大类作品技术栈 + 对我项目(VPS+红米K30+Hermes)建议 | sources/bilibili/ai-creation-contest/ | 本地待推送 |
+|| 2026-07-21 | [B站：Gelai_AI / BV1us5r6MEg6](sources/bilibili/19375009/视频索引.md) | source | Matt Pocock AI 编程工作流全流程转录稿 + wiki D2 候选 | sources/bilibili/19375009/ | 本地 |
 | 2026-07-16 | [SCHEMA.md](SCHEMA.md) | index | 仓库 Schema(已批总装文书落地):三层结构、episode 状态机、D0–D5、legacy 兼容；批准文书与 Scope Recall 合同指向当前 ops-notes 真源 | SCHEMA.md | 已同步 |
 | 2026-07-16 | [AGENTS.md](AGENTS.md) | index | 仓库规则入口:三层铁律、legacy bundle 边界、退役归档与当前 ops-notes 边界 | AGENTS.md | 已同步 |
 | 2026-07-16 | [wiki/index.md](wiki/index.md) | index | 学科分支导航图入口(骨架) | wiki/index.md | 未同步 |
